@@ -1,0 +1,16 @@
+package com.woletrs.AnnotationConfigApplicationContext;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AnnotationConfigApplicationContextApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AnnotationConfigApplicationContextApplication.class, args);
+		ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+	    Student student = context.getBean(Student.class);
+	    System.out.println(student);
+	}
+
+}

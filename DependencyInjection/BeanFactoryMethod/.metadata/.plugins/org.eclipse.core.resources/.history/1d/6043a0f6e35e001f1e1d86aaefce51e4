@@ -1,0 +1,22 @@
+package com.woletrs.ConstructionInjectionDemo.pojos;
+
+public class Student {
+	private int id;
+	private MathCheat mathCheat;
+
+	public Student() {
+	}
+
+	public Student(int id, MathCheat mathCheat) {
+		this.id = id;
+		this.mathCheat = mathCheat;
+	}
+
+	public void cheating() {
+		System.out.println("My ID is: " + id);
+		mathCheat.mathCheating();
+	}
+	
+	
+
+}

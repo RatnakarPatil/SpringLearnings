@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+C:\SpringCore\DependencyInjection\BeanFactoryMethod\.metadata\.plugins\org.eclipse.jdt.core
+264397586.index
+497162892.index
+1865797976.index
+1020104606.index
+1086578897.index
+4250604251.index
+2343688217.index
+874715658.index

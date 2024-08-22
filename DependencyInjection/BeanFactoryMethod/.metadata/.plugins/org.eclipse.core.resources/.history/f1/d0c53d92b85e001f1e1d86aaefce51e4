@@ -1,0 +1,18 @@
+package com.woletrs.beanDemo;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import com.woletrs.beanDemo.pojos.Student;
+
+@SpringBootApplication
+public class BeanDemoApplication {
+
+	public static void main(String[] args) {
+		BeanFactory factory =  SpringApplication.run(BeanDemoApplication.class, args);
+		Student student = (Student) factory.getBean("spring.xml");
+		System.out.println(student);
+	}
+}

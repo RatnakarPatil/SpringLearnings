@@ -1,0 +1,12 @@
+package com.woletrs.SetterInjectionDemo.pojos;
+import java.util.*;
+
+public class InfoBean {
+	
+	private String name;
+	private String msg;
+	private Map<String, String> frameWorks;
+	
+	
+
+}

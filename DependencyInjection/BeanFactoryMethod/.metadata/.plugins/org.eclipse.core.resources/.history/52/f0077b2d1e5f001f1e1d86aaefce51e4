@@ -1,0 +1,16 @@
+package com.woletrs.SetterInject_NSM.pojos;
+
+public class Employee {
+	private String name;
+	private int employeeID;
+	private String department;
+	
+	public Employee(String name, int employeeID, String department) {
+		this.name = name;
+		this.employeeID = employeeID;
+		this.department = department;
+	}
+	
+	
+
+}

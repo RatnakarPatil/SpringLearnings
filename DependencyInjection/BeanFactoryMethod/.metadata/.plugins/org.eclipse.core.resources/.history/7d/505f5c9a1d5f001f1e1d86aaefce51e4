@@ -1,0 +1,15 @@
+package com.woletrs.SetterInject_NSM.pojos;
+import java.util.*;
+public class Address 
+{
+	private Map<Employee , Address> employees;
+	
+	public void display()
+	{
+		for (Map.Entry<Employee, Address> entry : employees.entrySet()) 
+		{ 
+			System.out.println("Employee Data ->"+ entry.getKey().toString() + " Address ->"+ entry.getValue().toString()); 
+       }
+	}
+
+}

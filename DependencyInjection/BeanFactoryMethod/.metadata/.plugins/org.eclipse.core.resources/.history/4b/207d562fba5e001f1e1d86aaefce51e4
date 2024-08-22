@@ -1,0 +1,5 @@
+package com.woletrs.AnnotationConfigApplicationContext.config;
+
+public class AppConfig {
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address1" class="com.wolters.Anno_DIbyType.pojos.Address">
+        <property name="city" value="Mumbai"> </property>
+        <property name="country" value="India"> </property>
+    </bean>
+
+    <bean id="address2" class="com.wolters.Anno_DIbyType.pojos.Address">
+        <property name="city" value="Pune"> </property>
+        <property name="country" value="India"> </property>
+    </bean>
+
+    <bean name="emp1" class="com.wolters.Anno_DIbyType.pojos.Employee" autowire="byType">
+        <property name="name" value="Ratnakar"> </property>
+    </bean>
+
+</beans>

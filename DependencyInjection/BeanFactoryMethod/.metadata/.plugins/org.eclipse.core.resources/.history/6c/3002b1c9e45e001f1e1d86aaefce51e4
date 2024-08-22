@@ -1,0 +1,13 @@
+package com.woletrs.SetterInjectionDemo.tester;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class InfoBeanTest {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("springConfig.xml");
+		InfoBean beaninfo = (InfoBean) context.getBean("InfoBean1");
+		System.out.println(beaninfo);
+	}
+
+}

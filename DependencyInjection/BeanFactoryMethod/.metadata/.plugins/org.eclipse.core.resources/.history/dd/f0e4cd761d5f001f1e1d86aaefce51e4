@@ -1,0 +1,8 @@
+package com.woletrs.SetterInject_NSM.pojos;
+import java.util.*;
+public class Address 
+{
+	private Map<Employee , Address> employees;
+	
+
+}

@@ -1,0 +1,5 @@
+package com.wolters.SpringBasic.pojos;
+
+public class Address {
+
+}

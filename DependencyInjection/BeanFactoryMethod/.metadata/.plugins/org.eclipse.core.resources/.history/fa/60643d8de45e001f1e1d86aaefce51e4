@@ -1,0 +1,5 @@
+package com.woletrs.SetterInjectionDemo.tester;
+
+public class InfoBeanTest {
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="InfoBean1" class="com.woletrs.SetterInjectionDemo.pojos.InfoBean">
+		<property name="name" value="Ratnakar"></property>
+		<property name="msg" value="Welcome to SpringDemo"></property>
+		<property name="frameWorks">
+			<map>
+				<entry key="Spring" value="Spring is an application framework used to develop Java Enterprise applications and designed on concept called Dependency injection."></entry>
+				<entry key="Hibernate" value="Hibernate is an object-relational mapping (ORM) framework that works with relational 
+                           databases to manage the data."></entry>
+			</map>
+		</property>
+	</bean>
+
+</beans>

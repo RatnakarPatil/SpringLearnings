@@ -1,0 +1,13 @@
+package com.woletrs.AnnotationConfigApplicationContext;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AnnotationConfigApplicationContextApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AnnotationConfigApplicationContextApplication.class, args);
+	}
+
+}

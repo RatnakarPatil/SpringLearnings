@@ -1,0 +1,23 @@
+package com.woletrs.AnnotationConfigApplicationContext;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.woletrs.AnnotationConfigApplicationContext.config.AppConfig;
+import com.woletrs.AnnotationConfigApplicationContext.pojos.Student;
+
+@SpringBootApplication
+public class AnnotationConfigApplicationContextApplication {
+
+	public static void main(String[] args) {
+//		 ApplicationContext context = SpringApplication.run(AnnotationConfigApplicationContextApplication.class, args);
+//		  Student student = context.getBean(Student.class);
+		
+		ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+		Student student = (Student) context.getBean(Student.class);
+		System.out.println(student);
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.woletrs.ConstructionInjectionDemo;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.woletrs.ConstructionInjectionDemo.pojos.Student;
+
+@SpringBootApplication
+public class ConstructionInjectionDemoApplication {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("springConfig.xml");
+		Student student = (Student) context.getBean("Student1");
+		student.cheating();
+	}
+}

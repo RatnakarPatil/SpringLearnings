@@ -1,0 +1,5 @@
+package com.woletrs.ConstructionInjectionDemo.pojos;
+
+public class Student {
+
+}
