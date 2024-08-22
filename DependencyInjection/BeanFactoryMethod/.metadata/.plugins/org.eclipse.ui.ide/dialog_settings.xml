@@ -89,6 +89,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\SpringCore\DependencyInjection\ApplicationContextMethod\Anno-InjInnerBeansDemo"/>
 			<item value="C:\SpringCore\DependencyInjection\SpringBasic"/>
 			<item value="C:\SpringCore\DependencyInjection\SetterInjection\SetterInject-NonStringMap"/>
 			<item value="C:\SpringCore\DependencyInjection\SetterInjection\SetterInjectionDemo"/>
